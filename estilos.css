@@ -1,0 +1,122 @@
+body{
+    background: url('imagenes/Jpg/mburucuya.jpg') fixed;
+}
+.container{
+    height: 1050px;
+    width: 800px;
+    margin-top: 0px;
+    margin: auto;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+header, nav, section, footer, aside, article{
+    margin-left: 50px;
+    width: 700px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    position:absolute;
+}
+header{
+    margin-top: 50px;
+    height: 150px;
+    background: #488ab3;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+header img{
+    height: 100%;
+    width: auto;
+    padding-right:10%;
+}
+nav{
+    margin-top: 220px;
+    height: 50px;
+    background: #515252
+}
+section{
+    margin-top: 290px;
+    height: 700px;
+    background: #e9ebee;
+}
+footer{
+    margin-top: 1010px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    background: #515252;
+    text-align: center;
+    text-shadow: 1px 1px 1px #00ffff;
+}
+/*Estilo de menú*/
+.menu{
+    
+}
+.menu ul{
+    margin: 5px;
+    list-style:none;
+}
+.menu ul li{
+    float: left;
+    padding: 10px;
+    border: 0;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #e03893;
+    background: #303030;
+    color: #555555;
+}
+.menu ul li a{
+    color: #ffffff;
+    font: normal 12px Arial;
+    font-weight: bold;
+    text-decoration: none;
+    box-sizing: content-box;
+}
+.menu ul li .activo{
+    color: #8ad5e0;
+    border-bottom: 3px solid #f3fb20;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: #5050e5;
+}
+
+.titulo, .subTitulo, .texto{
+    font-weight: bold;
+    font-family: 'Century Gothic',Arial;
+    padding: 10px;
+}
+.titulo{
+    font-size: 42px;
+    color: #72d9e5;
+    text-shadow: 2px 2px 2px #cccccc;
+}
+.subTitulo{
+    font-size: 30px;
+    color: #fcf065;
+    text-shadow: 2px 2px 2px #cccccc;
+}
+.texto{
+    font-size: 24px;
+    color: #797979;
+}
+.textoPequeno{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #454545;
+}
+.anuncio{
+    top: 0px;
+    position: relative;
+    margin-left: 30px;
+    height: 150px;
+    width: 200px;
+    background: #dddddd;
+    float: left;
+}
+.colorear{
+    content: url(imagenes/Png/PAGAS2.png);
+    transition: 300ms;
+}
+.colorearImg:hover{
+    content: url(imagenes/Png/PAGAS1.png);
+    transition: 300ms;
+}
